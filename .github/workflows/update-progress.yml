@@ -1,0 +1,28 @@
+name: Update NeetCode Progress
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update progress table
+        run: python3 .github/scripts/update_progress.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update NeetCode progress [skip ci]"
+            git push
+          fi
