@@ -24,6 +24,16 @@ Problems to come back to and redo from scratch.
 
 ---
 
+## Close But No Cigar
+
+Right idea, wrong execution — off-by-one, missed an edge case, slightly wrong data structure, etc.
+
+| Problem | Category | What I got wrong |
+|:---|:---|:---|
+| | | |
+
+---
+
 ## Patterns & Tricks
 
 Reusable ideas worth remembering.
