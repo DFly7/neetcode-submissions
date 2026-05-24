@@ -20,7 +20,7 @@ Problems to come back to and redo from scratch.
 
 | Problem | Category | Notes |
 |:---|:---|:---|
-| | | |
+| [top-k-elements-in-list](../Data%20Structures%20%26%20Algorithms/top-k-elements-in-list) | Heap / Priority Queue | Right idea but missed key patterns — redo from scratch |
 
 ---
 
