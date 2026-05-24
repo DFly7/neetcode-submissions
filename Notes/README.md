@@ -30,7 +30,7 @@ Right idea, wrong execution — off-by-one, missed an edge case, slightly wrong 
 
 | Problem | Category | What I got wrong |
 |:---|:---|:---|
-| [string-encode-and-decode](../Data%20Structures%20%26%20Algorithms/string-encode-and-decode) | Arrays & Hashing | Had the right encoding idea (length#word) but needed help with the decode pointer logic — finding `#`, extracting the length, then jumping `j+1+length` forward |
+| [string-encode-and-decode](../Data%20Structures%20%26%20Algorithms/string-encode-and-decode) | Arrays & Hashing | Used `#word#length` instead of `length#word` — breaks when length > 9 (multi-digit). Flipping the order fixed it, rest of the solution was spot on |
 
 ---
 
