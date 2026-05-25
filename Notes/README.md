@@ -22,6 +22,7 @@ Problems to come back to and redo from scratch.
 |:---|:---|:---|
 | [top-k-elements-in-list](../Data%20Structures%20%26%20Algorithms/top-k-elements-in-list) | Arrays & Hashing | Right idea but missed key patterns — redo from scratch |
 | [valid-sudoku](../Data%20Structures%20%26%20Algorithms/valid-sudoku) | Arrays & Hashing | Revisit the 3x3 box index trick |
+| [longest-consecutive-sequence](../Data%20Structures%20%26%20Algorithms/longest-consecutive-sequence) | Arrays & Hashing | Revisit the sequence start insight |
 
 ---
 
@@ -34,6 +35,7 @@ Right idea, wrong execution — off-by-one, missed an edge case, slightly wrong 
 | [string-encode-and-decode](../Data%20Structures%20%26%20Algorithms/string-encode-and-decode) | Arrays & Hashing | Used `#word#length` instead of `length#word` — breaks when length > 9 (multi-digit). Flipping the order fixed it, rest of the solution was spot on |
 | [products-of-array-discluding-self](../Data%20Structures%20%26%20Algorithms/products-of-array-discluding-self) | Arrays & Hashing | Knew the prefix/postfix pattern but included the current element in each — prefix[i] and postfix[i] must exclude index i |
 | [valid-sudoku](../Data%20Structures%20%26%20Algorithms/valid-sudoku) | Arrays & Hashing | Close but didn't get `(row // 3, col // 3)` to map a cell to its 3x3 box index |
+| [longest-consecutive-sequence](../Data%20Structures%20%26%20Algorithms/longest-consecutive-sequence) | Arrays & Hashing | Needed hints to get the key insight — only start counting from the beginning of a sequence (i.e. `n-1` not in set) |
 
 ---
 
