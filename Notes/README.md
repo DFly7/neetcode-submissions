@@ -31,6 +31,7 @@ Right idea, wrong execution — off-by-one, missed an edge case, slightly wrong 
 | Problem | Category | What I got wrong |
 |:---|:---|:---|
 | [string-encode-and-decode](../Data%20Structures%20%26%20Algorithms/string-encode-and-decode) | Arrays & Hashing | Used `#word#length` instead of `length#word` — breaks when length > 9 (multi-digit). Flipping the order fixed it, rest of the solution was spot on |
+| [products-of-array-discluding-self](../Data%20Structures%20%26%20Algorithms/products-of-array-discluding-self) | Arrays & Hashing | Knew the prefix/postfix pattern but included the current element in each — prefix[i] and postfix[i] must exclude index i |
 
 ---
 
