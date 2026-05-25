@@ -22,6 +22,7 @@ Problems to come back to and redo from scratch.
 |:---|:---|:---|
 | [top-k-elements-in-list](../Data%20Structures%20%26%20Algorithms/top-k-elements-in-list) | Arrays & Hashing | Right idea but missed key patterns — redo from scratch |
 | [valid-sudoku](../Data%20Structures%20%26%20Algorithms/valid-sudoku) | Arrays & Hashing | Revisit the 3x3 box index trick |
+| [is-palindrome](../Data%20Structures%20%26%20Algorithms/is-palindrome) | Two Pointers | Revisit — nearly there, just the `continue` pattern to nail down |
 | [longest-consecutive-sequence](../Data%20Structures%20%26%20Algorithms/longest-consecutive-sequence) | Arrays & Hashing | Revisit the sequence start insight |
 
 ---
@@ -36,6 +37,7 @@ Right idea, wrong execution — off-by-one, missed an edge case, slightly wrong 
 | [products-of-array-discluding-self](../Data%20Structures%20%26%20Algorithms/products-of-array-discluding-self) | Arrays & Hashing | Knew the prefix/postfix pattern but included the current element in each — prefix[i] and postfix[i] must exclude index i |
 | [valid-sudoku](../Data%20Structures%20%26%20Algorithms/valid-sudoku) | Arrays & Hashing | Close but didn't get `(row // 3, col // 3)` to map a cell to its 3x3 box index |
 | [longest-consecutive-sequence](../Data%20Structures%20%26%20Algorithms/longest-consecutive-sequence) | Arrays & Hashing | Needed hints to get the key insight — only start counting from the beginning of a sequence (i.e. `n-1` not in set) |
+| [is-palindrome](../Data%20Structures%20%26%20Algorithms/is-palindrome) | Two Pointers | Had it all but missed `continue` after skipping non-alphanumeric chars — without it the pointers still advance and compare the wrong characters |
 
 ---
 
