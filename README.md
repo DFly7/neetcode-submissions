@@ -73,7 +73,7 @@ Manage your sync preferences at [neetcode.io/profile/github](https://neetcode.io
 
 <!-- NEETCODE_PROGRESS_START -->
 
-## NeetCode 150 — 48 / 150 solved (32%)
+## NeetCode 150 — 49 / 150 solved (32%)
 
 `▓▓▓░░░░░░░` 32%
 
@@ -81,7 +81,7 @@ Manage your sync preferences at [neetcode.io/profile/github](https://neetcode.io
 |:---|:---:|:---|
 | Arrays & Hashing | 9 / 9 | `▓▓▓▓▓▓▓▓▓▓` |
 | Two Pointers | 4 / 5 | `▓▓▓▓▓▓▓▓░░` |
-| Sliding Window | 1 / 6 | `▓▓░░░░░░░░` |
+| Sliding Window | 2 / 6 | `▓▓▓░░░░░░░` |
 | Stack | 4 / 7 | `▓▓▓▓▓▓░░░░` |
 | Binary Search | 3 / 7 | `▓▓▓▓░░░░░░` |
 | Linked List | 3 / 11 | `▓▓▓░░░░░░░` |
